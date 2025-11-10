@@ -40,8 +40,10 @@
                 // tarefa cedeu a sua vez para outra rodar++
                 // se nao deixo ocioso mesmo ate liberar espaco
 
+            // Abre nova thread
             // Reconstroi a imagem com o algoritmo escolhido
                 // A cada 1s gera o relatorio de como esta o consumo de CPU e memoria
+            // Encerra a thread
 
             // Gera o relatório da imagem criada dizendo qual o numero da solicitacao
             // número de iterações e tempo total de reconstrução
