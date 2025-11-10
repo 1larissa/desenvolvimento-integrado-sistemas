@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/admin/Desktop/Desen_sistemas/desenvolvimento-integrado-sistemas/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MeuProjeto.dir\\main.cpp.obj -c C:\\Users\\admin\\Desktop\\Desen_sistemas\\desenvolvimento-integrado-sistemas\\main.cpp",
+  "file": "C:/Users/admin/Desktop/Desen_sistemas/desenvolvimento-integrado-sistemas/main.cpp",
+  "output": "CMakeFiles/MeuProjeto.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Desen_sistemas/desenvolvimento-integrado-sistemas/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MeuProjeto.dir\\principal.cpp.obj -c C:\\Users\\admin\\Desktop\\Desen_sistemas\\desenvolvimento-integrado-sistemas\\principal.cpp",
+  "file": "C:/Users/admin/Desktop/Desen_sistemas/desenvolvimento-integrado-sistemas/principal.cpp",
+  "output": "CMakeFiles/MeuProjeto.dir/principal.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Desen_sistemas/desenvolvimento-integrado-sistemas/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MeuProjeto.dir\\server.cpp.obj -c C:\\Users\\admin\\Desktop\\Desen_sistemas\\desenvolvimento-integrado-sistemas\\server.cpp",
+  "file": "C:/Users/admin/Desktop/Desen_sistemas/desenvolvimento-integrado-sistemas/server.cpp",
+  "output": "CMakeFiles/MeuProjeto.dir/server.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Desen_sistemas/desenvolvimento-integrado-sistemas/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MeuProjeto.dir\\cliente.cpp.obj -c C:\\Users\\admin\\Desktop\\Desen_sistemas\\desenvolvimento-integrado-sistemas\\cliente.cpp",
+  "file": "C:/Users/admin/Desktop/Desen_sistemas/desenvolvimento-integrado-sistemas/cliente.cpp",
+  "output": "CMakeFiles/MeuProjeto.dir/cliente.cpp.obj"
+}
+]

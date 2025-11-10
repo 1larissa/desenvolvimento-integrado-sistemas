@@ -55,3 +55,19 @@
     // Encerro o processamento em c++
     // Inicializo o processamento em python
     // Igual em c++
+
+    
+#include "server.h"//tem que adicionar o header correspondente
+#include <iostream>//Biblioteca de print
+
+
+server::server(){
+    //inicializa atributos
+}   
+
+void server::iniciarServidor(){
+    //inicia o servidor
+    std::cout << "Servidor iniciado!" << std::endl;
+}
+
+
