@@ -1,14 +1,14 @@
 #include "principal.h"//tem que adicionar o header correspondente
 #include <iostream>//Biblioteca de print
+#include "server.h"
 
 principal::principal(){
     //inicializa atributos
 }
 
 void principal::executar(){
-    //inicia o servidor
-
-    std::cout << "Ola, mundo!" << std::endl;
+    server server;
+    server.iniciarServidor();
 }
 
 

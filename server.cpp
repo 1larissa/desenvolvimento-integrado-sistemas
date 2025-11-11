@@ -3,25 +3,35 @@
 // A criação de outras threads alem da principal se da caso haja espaço em 
 // memoria e na CPU
 
-
-// struct global da solicitacao de reconstrucao de imagem
-    // id da solicitacao
-    // qual modelo
-    // qual sinal
-    // qual algoritmo usado
-    // numero de vezes que cedeu a vez para outra imagem rodar ao inves dela rodar..
-    // numero de iteracoes
-    // tempo total reconstrução
-
-// Acho q a fila de solicitações tambem pode ser global...
-
 // defino GLOBAL quanto mais ou menos eh o consumo de memoria para poder 
 // processar o modelo 1 (grande 60*60) e o modelo 2 (pequeno 30*30)
 
+#include "server.h"//tem que adicionar o header correspondente
+#include <iostream>//Biblioteca de print
+using namespace std;
 
-// Inicializa o servidor geral
+server::server(){
+
+}   
+
+void server::iniciarServidor(){
+    // Inicializa o servidor geral
+    cout << "Servidor Principal Inicializado!\n";
 
     // Inicializa o processamento em c++
+    if (!runinC()) {cout << "Processamento em C finalizado!\n";}
+    else {cout << "Erro durante o processamento em C++!\n";};
+
+    // // Inicializa o processamento em Python
+    // if (!runinPython()) {cout << "Processamento em Python finalizado!\n";}
+    // else {cout << "Erro durante o processamento em Python!\n";};
+
+    // // Retorna as imagens reconstruidas e os dados para os clientes
+    // if(!enviaDadosCliente()) {cout << "Dados enviados ao cliente com sucesso!\n";}
+    // else {cout << "Erro ao enviar dados ao cliente!\n";}
+}
+int server::runinC(){
+        cout << "Iniciando o processamento em C++!\n";
 
         // Enquanto a comunicação estiver aberta
         // Deixa a porta de comunicacao liberada,
@@ -29,7 +39,7 @@
         // colocando no final da fila
 
          // Enquanto a comunicação estiver aberta ou a fila não estiver vazia
-
+         
             // Vou reconstruir cada imagem da fila de solicitacoes
 
             // Antes de tratar uma solicitação o gerenciador da fila 
@@ -49,25 +59,15 @@
             // número de iterações e tempo total de reconstrução
 
             // Salva em uma lista, dicionario, sei la..todas as imagens e informaçoes de processamento
-
-        // Retorna toda a lista reconstruida para os clientes
-
-    // Encerro o processamento em c++
-    // Inicializo o processamento em python
-    // Igual em c++
-
-    
-#include "server.h"//tem que adicionar o header correspondente
-#include <iostream>//Biblioteca de print
-
-
-server::server(){
-    //inicializa atributos
-}   
-
-void server::iniciarServidor(){
-    //inicia o servidor
-    std::cout << "Servidor iniciado!" << std::endl;
+    return 0;
 }
 
+int server::runinPython(){
+    cout << "Iniciando o processamento em Python!\n";
+    return 0;
+}
 
+int server::enviaDadosCliente(){
+        // Retorna toda a lista de imagens reconstruidas para os clientes
+    return 0;
+}
