@@ -1,13 +1,13 @@
-#include "principal.h"//tem que adicionar o header correspondente
+#include "principal.hpp"//tem que adicionar o header correspondente
 #include <iostream>//Biblioteca de print
-#include "server.h"
+#include "server.hpp"
 
-principal::principal(){
+Principal::Principal(){
     //inicializa atributos
 }
 
-void principal::executar(){
-    server server;
+void Principal::executar(){
+    Server server;
     server.iniciarServidor();
 }
 

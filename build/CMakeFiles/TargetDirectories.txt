@@ -1,3 +1,0 @@
-C:/Users/laris/OneDrive/Documentos/Projeto-Desenvolvimento-Integrado-Sistemas/desenvolvimento-integrado-sistemas/build/CMakeFiles/MeuProjeto.dir
-C:/Users/laris/OneDrive/Documentos/Projeto-Desenvolvimento-Integrado-Sistemas/desenvolvimento-integrado-sistemas/build/CMakeFiles/edit_cache.dir
-C:/Users/laris/OneDrive/Documentos/Projeto-Desenvolvimento-Integrado-Sistemas/desenvolvimento-integrado-sistemas/build/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include "principal.h"
+#include "principal.hpp"
 int main() {
-	principal a; // cria um intem da classe principal
+	Principal a; // cria um intem da classe principal
 
 	a.executar(); //chama a funçao do objeto criado
 

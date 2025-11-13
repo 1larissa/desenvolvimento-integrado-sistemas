@@ -6,15 +6,15 @@
 // defino GLOBAL quanto mais ou menos eh o consumo de memoria para poder 
 // processar o modelo 1 (grande 60*60) e o modelo 2 (pequeno 30*30)
 
-#include "server.h"//tem que adicionar o header correspondente
+#include "server.hpp"//tem que adicionar o header correspondente
 #include <iostream>//Biblioteca de print
 using namespace std;
 
-server::server(){
+Server::Server(){
 
 }   
 
-void server::iniciarServidor(){
+void Server::iniciarServidor(){
     // Inicializa o servidor geral
     cout << "Servidor Principal Inicializado!\n";
 
@@ -30,7 +30,7 @@ void server::iniciarServidor(){
     // if(!enviaDadosCliente()) {cout << "Dados enviados ao cliente com sucesso!\n";}
     // else {cout << "Erro ao enviar dados ao cliente!\n";}
 }
-int server::runinC(){
+int Server::runinC(){
         cout << "Iniciando o processamento em C++!\n";
 
         // Enquanto a comunicação estiver aberta
@@ -62,12 +62,12 @@ int server::runinC(){
     return 0;
 }
 
-int server::runinPython(){
+int Server::runinPython(){
     cout << "Iniciando o processamento em Python!\n";
     return 0;
 }
 
-int server::enviaDadosCliente(){
+int Server::enviaDadosCliente(){
         // Retorna toda a lista de imagens reconstruidas para os clientes
     return 0;
 }

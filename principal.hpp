@@ -4,15 +4,14 @@
 #pragma once /*Sempre coloque em todo .h pra
                 não ter problema de include*/
 #include <stdio.h>
-#include "server.h"
+#include "server.hpp"
 
-
-class principal{
+class Principal{
     private:
         //server servidor;
         //atributos e outros itens
     public:
         //metodos
-        principal();
+        Principal();
         void executar();
 };
