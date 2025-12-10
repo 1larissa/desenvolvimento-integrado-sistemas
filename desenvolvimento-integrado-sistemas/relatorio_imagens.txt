@@ -1,0 +1,820 @@
+---------------------------------------------------
+ID da Solicitação: 0
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:20:12
+Data/Hora Término: 2025-12-05 13:20:15
+Iterações Executadas: 10
+Tempo de Reconstrução: 2830.665 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 0
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:22:52
+Data/Hora Término: 2025-12-05 13:22:52
+Iterações Executadas: 10
+Tempo de Reconstrução: 266.201 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 1
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:22:55
+Data/Hora Término: 2025-12-05 13:22:55
+Iterações Executadas: 10
+Tempo de Reconstrução: 259.780 ms
+Sinal: 5.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 2
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:23:12
+Data/Hora Término: 2025-12-05 13:23:14
+Iterações Executadas: 10
+Tempo de Reconstrução: 1939.812 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 3
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:23:17
+Data/Hora Término: 2025-12-05 13:23:17
+Iterações Executadas: 10
+Tempo de Reconstrução: 272.481 ms
+Sinal: 5.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 4
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:23:19
+Data/Hora Término: 2025-12-05 13:23:20
+Iterações Executadas: 10
+Tempo de Reconstrução: 369.710 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 5
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:23:38
+Data/Hora Término: 2025-12-05 13:23:41
+Iterações Executadas: 10
+Tempo de Reconstrução: 2639.539 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 6
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:23:43
+Data/Hora Término: 2025-12-05 13:23:43
+Iterações Executadas: 10
+Tempo de Reconstrução: 332.121 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 7
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:24:09
+Data/Hora Término: 2025-12-05 13:24:13
+Iterações Executadas: 10
+Tempo de Reconstrução: 3211.988 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 8
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:24:32
+Data/Hora Término: 2025-12-05 13:24:33
+Iterações Executadas: 10
+Tempo de Reconstrução: 1812.271 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 9
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:24:53
+Data/Hora Término: 2025-12-05 13:24:55
+Iterações Executadas: 10
+Tempo de Reconstrução: 2142.118 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 10
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:25:17
+Data/Hora Término: 2025-12-05 13:25:19
+Iterações Executadas: 10
+Tempo de Reconstrução: 1856.793 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 11
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:25:21
+Data/Hora Término: 2025-12-05 13:25:22
+Iterações Executadas: 10
+Tempo de Reconstrução: 379.494 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 12
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:25:24
+Data/Hora Término: 2025-12-05 13:25:24
+Iterações Executadas: 10
+Tempo de Reconstrução: 387.829 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 13
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:25:27
+Data/Hora Término: 2025-12-05 13:25:27
+Iterações Executadas: 10
+Tempo de Reconstrução: 379.317 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 14
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:25:29
+Data/Hora Término: 2025-12-05 13:25:30
+Iterações Executadas: 10
+Tempo de Reconstrução: 265.480 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 15
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:25:32
+Data/Hora Término: 2025-12-05 13:25:33
+Iterações Executadas: 10
+Tempo de Reconstrução: 394.505 ms
+Sinal: 5.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 16
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:25:54
+Data/Hora Término: 2025-12-05 13:25:56
+Iterações Executadas: 10
+Tempo de Reconstrução: 2660.169 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 17
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:26:18
+Data/Hora Término: 2025-12-05 13:26:20
+Iterações Executadas: 10
+Tempo de Reconstrução: 1843.943 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 18
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:26:44
+Data/Hora Término: 2025-12-05 13:26:46
+Iterações Executadas: 10
+Tempo de Reconstrução: 1839.198 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 19
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:27:10
+Data/Hora Término: 2025-12-05 13:27:13
+Iterações Executadas: 10
+Tempo de Reconstrução: 2665.854 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 20
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:27:15
+Data/Hora Término: 2025-12-05 13:27:16
+Iterações Executadas: 10
+Tempo de Reconstrução: 278.758 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 21
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:27:39
+Data/Hora Término: 2025-12-05 13:27:42
+Iterações Executadas: 10
+Tempo de Reconstrução: 2655.275 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 22
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 13:27:44
+Data/Hora Término: 2025-12-05 13:27:45
+Iterações Executadas: 10
+Tempo de Reconstrução: 375.554 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 23
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 13:28:07
+Data/Hora Término: 2025-12-05 13:28:10
+Iterações Executadas: 10
+Tempo de Reconstrução: 2588.200 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 0
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:09:40
+Data/Hora Término: 2025-12-05 15:09:43
+Iterações Executadas: 10
+Tempo de Reconstrução: 2943.603 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 1
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:10:01
+Data/Hora Término: 2025-12-05 15:10:03
+Iterações Executadas: 10
+Tempo de Reconstrução: 2692.046 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 2
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:10:05
+Data/Hora Término: 2025-12-05 15:10:06
+Iterações Executadas: 10
+Tempo de Reconstrução: 436.053 ms
+Sinal: 5.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 3
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:10:08
+Data/Hora Término: 2025-12-05 15:10:09
+Iterações Executadas: 10
+Tempo de Reconstrução: 418.217 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 4
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:10:11
+Data/Hora Término: 2025-12-05 15:10:11
+Iterações Executadas: 10
+Tempo de Reconstrução: 272.624 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 5
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:10:13
+Data/Hora Término: 2025-12-05 15:10:14
+Iterações Executadas: 10
+Tempo de Reconstrução: 268.248 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 6
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:10:16
+Data/Hora Término: 2025-12-05 15:10:16
+Iterações Executadas: 10
+Tempo de Reconstrução: 267.973 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 7
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:10:18
+Data/Hora Término: 2025-12-05 15:10:19
+Iterações Executadas: 10
+Tempo de Reconstrução: 269.834 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 8
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:10:38
+Data/Hora Término: 2025-12-05 15:10:40
+Iterações Executadas: 10
+Tempo de Reconstrução: 2638.169 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 9
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:10:58
+Data/Hora Término: 2025-12-05 15:10:59
+Iterações Executadas: 10
+Tempo de Reconstrução: 1793.789 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 10
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:11:18
+Data/Hora Término: 2025-12-05 15:11:20
+Iterações Executadas: 10
+Tempo de Reconstrução: 2706.080 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 11
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:11:22
+Data/Hora Término: 2025-12-05 15:11:23
+Iterações Executadas: 10
+Tempo de Reconstrução: 288.875 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 12
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:11:42
+Data/Hora Término: 2025-12-05 15:11:44
+Iterações Executadas: 10
+Tempo de Reconstrução: 1859.048 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 13
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:11:46
+Data/Hora Término: 2025-12-05 15:11:47
+Iterações Executadas: 10
+Tempo de Reconstrução: 369.529 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 14
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:12:05
+Data/Hora Término: 2025-12-05 15:12:07
+Iterações Executadas: 10
+Tempo de Reconstrução: 1800.832 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 15
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:12:26
+Data/Hora Término: 2025-12-05 15:12:29
+Iterações Executadas: 10
+Tempo de Reconstrução: 2611.274 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 16
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:12:46
+Data/Hora Término: 2025-12-05 15:12:49
+Iterações Executadas: 10
+Tempo de Reconstrução: 2593.936 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 17
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:13:07
+Data/Hora Término: 2025-12-05 15:13:10
+Iterações Executadas: 10
+Tempo de Reconstrução: 2645.841 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 18
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:12
+Data/Hora Término: 2025-12-05 15:13:12
+Iterações Executadas: 10
+Tempo de Reconstrução: 276.839 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 19
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:14
+Data/Hora Término: 2025-12-05 15:13:14
+Iterações Executadas: 10
+Tempo de Reconstrução: 367.722 ms
+Sinal: 5.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 20
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:17
+Data/Hora Término: 2025-12-05 15:13:17
+Iterações Executadas: 10
+Tempo de Reconstrução: 254.947 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 21
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:19
+Data/Hora Término: 2025-12-05 15:13:20
+Iterações Executadas: 10
+Tempo de Reconstrução: 368.361 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 22
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:13:38
+Data/Hora Término: 2025-12-05 15:13:41
+Iterações Executadas: 10
+Tempo de Reconstrução: 2672.451 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 23
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:43
+Data/Hora Término: 2025-12-05 15:13:43
+Iterações Executadas: 10
+Tempo de Reconstrução: 269.346 ms
+Sinal: 5.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 24
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:46
+Data/Hora Término: 2025-12-05 15:13:46
+Iterações Executadas: 10
+Tempo de Reconstrução: 372.709 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 25
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:48
+Data/Hora Término: 2025-12-05 15:13:48
+Iterações Executadas: 10
+Tempo de Reconstrução: 263.987 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 26
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:51
+Data/Hora Término: 2025-12-05 15:13:51
+Iterações Executadas: 10
+Tempo de Reconstrução: 266.376 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 27
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:53
+Data/Hora Término: 2025-12-05 15:13:53
+Iterações Executadas: 10
+Tempo de Reconstrução: 265.739 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 28
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:13:56
+Data/Hora Término: 2025-12-05 15:13:56
+Iterações Executadas: 10
+Tempo de Reconstrução: 259.984 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 29
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:14:16
+Data/Hora Término: 2025-12-05 15:14:19
+Iterações Executadas: 10
+Tempo de Reconstrução: 3036.008 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 0
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:38:36
+Data/Hora Término: 2025-12-05 15:38:36
+Iterações Executadas: 10
+Tempo de Reconstrução: 387.713 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 1
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:38:54
+Data/Hora Término: 2025-12-05 15:38:56
+Iterações Executadas: 10
+Tempo de Reconstrução: 1985.012 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 2
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:38:59
+Data/Hora Término: 2025-12-05 15:38:59
+Iterações Executadas: 10
+Tempo de Reconstrução: 401.205 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 3
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:39:01
+Data/Hora Término: 2025-12-05 15:39:01
+Iterações Executadas: 10
+Tempo de Reconstrução: 377.722 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 4
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:39:04
+Data/Hora Término: 2025-12-05 15:39:04
+Iterações Executadas: 10
+Tempo de Reconstrução: 393.061 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 5
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:39:24
+Data/Hora Término: 2025-12-05 15:39:26
+Iterações Executadas: 10
+Tempo de Reconstrução: 1940.563 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 6
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:39:43
+Data/Hora Término: 2025-12-05 15:39:45
+Iterações Executadas: 10
+Tempo de Reconstrução: 1882.136 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 7
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:40:04
+Data/Hora Término: 2025-12-05 15:40:06
+Iterações Executadas: 10
+Tempo de Reconstrução: 2658.934 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 8
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:40:24
+Data/Hora Término: 2025-12-05 15:40:27
+Iterações Executadas: 10
+Tempo de Reconstrução: 2703.366 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 9
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:40:28
+Data/Hora Término: 2025-12-05 15:40:29
+Iterações Executadas: 10
+Tempo de Reconstrução: 290.240 ms
+Sinal: 5.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 10
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:40:47
+Data/Hora Término: 2025-12-05 15:40:49
+Iterações Executadas: 10
+Tempo de Reconstrução: 2040.294 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 11
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:40:51
+Data/Hora Término: 2025-12-05 15:40:52
+Iterações Executadas: 10
+Tempo de Reconstrução: 449.188 ms
+Sinal: 5.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 12
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:40:54
+Data/Hora Término: 2025-12-05 15:40:54
+Iterações Executadas: 10
+Tempo de Reconstrução: 397.332 ms
+Sinal: 5.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 13
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:41:15
+Data/Hora Término: 2025-12-05 15:41:18
+Iterações Executadas: 10
+Tempo de Reconstrução: 3007.078 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 14
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:41:39
+Data/Hora Término: 2025-12-05 15:41:40
+Iterações Executadas: 10
+Tempo de Reconstrução: 1874.799 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 15
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:42:03
+Data/Hora Término: 2025-12-05 15:42:07
+Iterações Executadas: 10
+Tempo de Reconstrução: 3698.771 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 16
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:42:30
+Data/Hora Término: 2025-12-05 15:42:33
+Iterações Executadas: 10
+Tempo de Reconstrução: 2707.747 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 17
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:42:35
+Data/Hora Término: 2025-12-05 15:42:36
+Iterações Executadas: 10
+Tempo de Reconstrução: 434.399 ms
+Sinal: 4.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 18
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:43:05
+Data/Hora Término: 2025-12-05 15:43:08
+Iterações Executadas: 10
+Tempo de Reconstrução: 2875.514 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 19
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:43:33
+Data/Hora Término: 2025-12-05 15:43:35
+Iterações Executadas: 10
+Tempo de Reconstrução: 1895.800 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 20
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:44:01
+Data/Hora Término: 2025-12-05 15:44:04
+Iterações Executadas: 10
+Tempo de Reconstrução: 2792.828 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 0
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:49:03
+Data/Hora Término: 2025-12-05 15:49:05
+Iterações Executadas: 10
+Tempo de Reconstrução: 2051.785 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 1
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:49:28
+Data/Hora Término: 2025-12-05 15:49:31
+Iterações Executadas: 10
+Tempo de Reconstrução: 2803.860 ms
+Sinal: 3.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 2
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:50:28
+Data/Hora Término: 2025-12-05 15:50:32
+Iterações Executadas: 10
+Tempo de Reconstrução: 3343.445 ms
+Sinal: 1.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 3
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:50:38
+Data/Hora Término: 2025-12-05 15:50:39
+Iterações Executadas: 10
+Tempo de Reconstrução: 594.619 ms
+Sinal: 6.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 4
+Algoritmo Utilizado: CGNR
+Tamanho em Pixels: 60x60
+Data/Hora Início: 2025-12-05 15:51:33
+Data/Hora Término: 2025-12-05 15:51:37
+Iterações Executadas: 10
+Tempo de Reconstrução: 3327.137 ms
+Sinal: 2.csv
+---------------------------------------------------
+---------------------------------------------------
+ID da Solicitação: 5
+Algoritmo Utilizado: CGNE
+Tamanho em Pixels: 30x30
+Data/Hora Início: 2025-12-05 15:51:45
+Data/Hora Término: 2025-12-05 15:51:46
+Iterações Executadas: 10
+Tempo de Reconstrução: 651.424 ms
+Sinal: 5.csv
+---------------------------------------------------

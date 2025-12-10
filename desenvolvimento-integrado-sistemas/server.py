@@ -1,7 +1,6 @@
 from solicitacao import Solicitacao 
 import queue
 import threading
-import keyboard # pip install keyboard
 from typing import Optional
 import time
 import matplotlib
@@ -92,13 +91,34 @@ class Server:
             linhas=H_teste.shape[0], 
             colunas=H_teste.shape[1], 
             algoritmo= algoritmo_envio,
-            cliente= cliente
+            cliente= cliente,
+            sinal_n= sinal
             )
         
         solicitacao_aux.matriz_H = H_teste
         solicitacao_aux.vetor_sinal_g = g_teste
         self.id_solicitacao += 1
         self.adicionarSolicitacao(solicitacao_aux)
+
+    def iniciar_relatorio_sistema(self, nome_arquivo="relatorio_sistema.txt"):
+        while self.rodando:
+            try:
+                cpu = psutil.cpu_percent(interval=1)  # espera 1 segundo
+                memoria = psutil.virtual_memory().percent
+                agora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+                PASTA_RAIZ = Path(__file__).resolve().parent
+
+                caminho_relatorio = PASTA_RAIZ / nome_arquivo
+
+                # MODO APPEND — NÃO sobrescreve o arquivo
+                with open(caminho_relatorio, "a", encoding="utf-8") as f:
+                    f.write(f"[{agora}] CPU: {cpu:.1f}% | MEM: {memoria:.1f}%\n")
+
+            except Exception as e:
+                print(f"Erro ao gerar o relatório do sistema: {e}")
+                time.sleep(1)
+
 
 
 
@@ -220,7 +240,7 @@ class Server:
         plt.figure(figsize=(6, 6))
         plt.imshow(imagem_2d, cmap='gray')
         plt.title(f"Reconstrução {solicitacao.algoritmo} ({dimensao}x{dimensao})")
-        plt.xlabel(f"Tempo: {tempo_ms:.2f} ms | Itera: {iteracoes}")
+        plt.xlabel(f"Tempo: {tempo_ms:.2f} ms | Itera: {iteracoes} | Sinal: {solicitacao.sinal_n}")
         plt.savefig(filename)
         plt.close()
         print(f"{filename} salva.")
@@ -237,7 +257,7 @@ class Server:
                 f.write(f"Data/Hora Término: {solicitacao.tempo_fim.strftime('%Y-%m-%d %H:%M:%S')}\n")
                 f.write(f"Iterações Executadas: {solicitacao.total_interacoes}\n")
                 f.write(f"Tempo de Reconstrução: {solicitacao.tempo_reconstrucao_ms:.3f} ms\n")
-                f.write(f"Sinal:")
+                f.write(f"Sinal: {solicitacao.sinal_n}\n")
                 f.write("---------------------------------------------------\n")
         except Exception as e:
             print(f"Erro ao escrever no relatório")

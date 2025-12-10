@@ -20,6 +20,10 @@ class Principal:
         thread_g = threading.Thread(target=self.servidor._gerenciar_fila, daemon=False)
         thread_g.start()
 
+    def iniciar_relatorio(self):
+        thread_r = threading.Thread(target=self.servidor.iniciar_relatorio_sistema, daemon=False)
+        thread_r.start()
+
     def iniciar_percorredor_json(self):
         thread_json = threading.Thread(target=self.servidor.percorre_fila_json)
         thread_json.daemon = False
@@ -32,7 +36,7 @@ class Principal:
     
     async def enviar_json(self,cliente):
         async with cliente as c:
-            status, resposta, payload = await c.enviar_json()
+            status, resposta = await c.enviar_json()
             return status, resposta
         
     async def loop_envio(self, cliente):
@@ -46,10 +50,10 @@ class Principal:
                 f"Status: {status}, Resposta: {resposta}, "
                 f"Tempo de envio: {fim - inicio:.2f} segundos"
             )
-            cliente.gera_relatorio(cliente.define_json(), fim - inicio)
         
     async def executar(self):
         self.inicia_servidor_thread()
+        self.iniciar_relatorio()
 
         tarefaA = asyncio.create_task(self.loop_envio(self.clienteA))
         tarefaB = asyncio.create_task(self.loop_envio(self.clienteB))

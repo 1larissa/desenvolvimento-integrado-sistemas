@@ -28,26 +28,8 @@ class Cliente:
             async with session.post(url, json=payload) as resp:
                 status = resp.status
                 texto = await resp.text()
-                return resp.status, texto, payload
+                return resp.status, texto
             
-    def gera_relatorio(self,dados,tempo):
-        agora = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-
-        # pega uso atual de CPU e memória
-        cpu = psutil.cpu_percent(interval=None)            # ex: 23.5
-        memoria = psutil.virtual_memory().percent          # ex: 64.2
-
-        conteudo = (
-            f"Data/Hora: {agora}\n"
-            f"CPU (%): {cpu}\n"
-            f"Memória (%): {memoria}\n"
-            f"Cliente: {dados['cliente']}\n"
-            f"Matriz: {dados['matriz']}\n"
-            f"Sinal: {dados['sinal']}\n"
-            f"Algoritmo: {dados['algoritmo']}\n"
-            f"Tempo de envio (s): {tempo:.2f}\n"
-        )
-
     
     def define_json(self):
         matriz = random.choice(["H-1.csv", "H-2.csv"])
