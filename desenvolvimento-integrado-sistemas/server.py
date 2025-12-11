@@ -31,12 +31,26 @@ class Server:
         self.fila_solicitacoes: queue.Queue = queue.Queue()
         self.fila_solicitacoes_prontas: queue.Queue = queue.Queue()
         self.fila_json = queue.Queue()
+        
         # os numeros magicos
         self.LIMITE_MEMORIA_PERCENT = 85.0
         self.LIMITE_CPU_PERCENT = 85.0
         self.threads_ativas = 0
         self.MAX_THREADS = 4
         self.rodando=True
+
+        #inicializa matrizes
+        self.H_1 = np.loadtxt("CSV/H-1.csv", delimiter=",")
+        self.H_2 = np.loadtxt("CSV/H-2.csv", delimiter=",")
+
+        #inicializa sinais
+
+        self.s_1 = np.loadtxt("sinais/1.csv", delimiter=",")
+        self.s_2 = np.loadtxt("sinais/2.csv", delimiter=",")     
+        self.s_3 = np.loadtxt("sinais/3.csv", delimiter=",")
+        self.s_4 = np.loadtxt("sinais/4.csv", delimiter=",")
+        self.s_5 = np.loadtxt("sinais/5.csv", delimiter=",")
+        self.s_6 = np.loadtxt("sinais/6.csv", delimiter=",")
 
         self.id_solicitacao=0
 
@@ -69,34 +83,27 @@ class Server:
         algoritmo_envio = dados.get("algoritmo")
         cliente = dados.get("cliente")
 
-        # pega a pasta raiz do projeto, pra dar certo em qualquer pc
-        PASTA_RAIZ = Path(__file__).resolve().parent
         
-        #pasta das matrizes CSV
-        PASTA_MATRIZ = PASTA_RAIZ / "CSV" / matriz
-
-        #pasta dos sinais CSV
-        PASTA_SINAL = PASTA_RAIZ / "sinais" / sinal
-
-        #abre em pandas
-        df_H = pd.read_csv(PASTA_MATRIZ, sep=SEP_CHAR, header=None)
-        df_g = pd.read_csv(PASTA_SINAL, sep=SEP_CHAR, header=None)
-
-        #converte pra numpy   
-        H_teste = df_H.values
-        g_teste = df_g.iloc[:, 0].values
+        if(matriz == "H-1.csv"):
+            linhas0=self.H_1.shape[0]
+            colunas0=self.H_1.shape[1]
+        else:
+            linhas0=self.H_2.shape[0]
+            colunas0=self.H_2.shape[1]
+       
+    
 
         solicitacao_aux = Solicitacao(
             id_solicitacao=self.id_solicitacao, 
-            linhas=H_teste.shape[0], 
-            colunas=H_teste.shape[1], 
+            linhas=linhas0,
+            colunas=colunas0,
             algoritmo= algoritmo_envio,
             cliente= cliente,
-            sinal_n= sinal
+            sinal_n= sinal,
+            csv= matriz
             )
         
-        solicitacao_aux.matriz_H = H_teste
-        solicitacao_aux.vetor_sinal_g = g_teste
+        
         self.id_solicitacao += 1
         self.adicionarSolicitacao(solicitacao_aux)
 
@@ -172,28 +179,44 @@ class Server:
         try:
             solicitacao.tempo_inicio = datetime.now()
             tempo_inicio_algoritmo = time.time()
-            print("oie")
-            print(solicitacao.algoritmo)
             # Chama a função CGNR/CGNE
             if solicitacao.algoritmo.upper() == 'CGNR':
                 func = cgnr
             else:
                 func = cgne
-
+            
+            if(solicitacao.csv == "H-1.csv"):
+                H0 = self.H_1
+            else:
+                H0 = self.H_2
+            
+            if(solicitacao.sinal_n == "1.csv"):
+                g0 = self.s_1
+            elif(solicitacao.sinal_n == "2.csv"):
+                g0 = self.s_2
+            elif(solicitacao.sinal_n == "3.csv"):
+                g0 = self.s_3    
+            elif(solicitacao.sinal_n == "4.csv"):
+                g0 = self.s_4
+            elif(solicitacao.sinal_n == "5.csv"):
+                g0 = self.s_5
+            else:
+                g0 = self.s_6
+            
             f_result, num_iters, final_error = func(
-                H=solicitacao.matriz_H, 
-                g=solicitacao.vetor_sinal_g, 
+                H=H0, 
+                g=g0, 
                 max_iterations=10,
                 tol=1e-2, 
                 min_iterations=1 
             )
-            print("CGNR ok")
+
             tempo_fim_algoritmo = time.time()
             
             # Salva tudo
             solicitacao.tempo_fim = datetime.now()
             solicitacao.total_interacoes = num_iters
-            solicitacao.tempo_reconstrucao_ms = (tempo_fim_algoritmo - tempo_inicio_algoritmo) * 1000
+            solicitacao.tempo_total_reconstrucao = (tempo_fim_algoritmo - tempo_inicio_algoritmo) * 1000
             solicitacao.imagem_reconstruida = f_result
             
             # Chama a função de salvamento e relatório
@@ -212,7 +235,7 @@ class Server:
        
     def _salvar_imagem_e_relatorio(self, solicitacao: Solicitacao, filename_prefix="img"):
         f_vector = solicitacao.imagem_reconstruida
-        tempo_ms = solicitacao.tempo_reconstrucao_ms
+        tempo_ms = solicitacao.tempo_total_reconstrucao
         iteracoes = solicitacao.total_interacoes
         
         n_pixels = len(f_vector)
@@ -256,37 +279,9 @@ class Server:
                 f.write(f"Data/Hora Início: {solicitacao.tempo_inicio.strftime('%Y-%m-%d %H:%M:%S')}\n")
                 f.write(f"Data/Hora Término: {solicitacao.tempo_fim.strftime('%Y-%m-%d %H:%M:%S')}\n")
                 f.write(f"Iterações Executadas: {solicitacao.total_interacoes}\n")
-                f.write(f"Tempo de Reconstrução: {solicitacao.tempo_reconstrucao_ms:.3f} ms\n")
+                f.write(f"Tempo de Reconstrução: {solicitacao.tempo_total_reconstrucao:.3f} ms\n")
                 f.write(f"Sinal: {solicitacao.sinal_n}\n")
                 f.write("---------------------------------------------------\n")
         except Exception as e:
             print(f"Erro ao escrever no relatório")
 
-    def run_in_Python(self):
-        try:
-            print("Carregando arquivos...")
-            df_H = pd.read_csv(r"CSV\H-2.csv", sep=SEP_CHAR, header=None)
-            df_g = pd.read_csv(r"sinais\4.csv", sep=SEP_CHAR, header=None)
-            
-            H_teste = df_H.values
-            g_teste = df_g.iloc[:, 0].values
-
-            solicitacao_teste = Solicitacao(
-                id_solicitacao=999, 
-                linhas=H_teste.shape[0], 
-                colunas=H_teste.shape[1], 
-                algoritmo='CGNR' #alterar conforme a solicitacao
-            )
-            solicitacao_teste.matriz_H = H_teste
-            solicitacao_teste.vetor_sinal_g = g_teste
-
-            # Executa o algoritmo na thread principal para teste,
-            # no caso dps altera pra fazer com outras threads
-            self._processar_imagem(solicitacao_teste)
-
-        except FileNotFoundError as e:
-            print(f"\nERRO: Arquivo {e.filename} não encontrado.")
-        except Exception as e:
-            print(f"\nERRO FATAL no processamento: {e}")
-            
-        return 0

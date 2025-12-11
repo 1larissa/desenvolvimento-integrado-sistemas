@@ -5,10 +5,8 @@ import numpy as np
 class Solicitacao:
     # struct global da solicitacao de reconstrucao de imagem
     def __init__(self, id_solicitacao: int=0, linhas: int=0, colunas: int=0,
-                  algoritmo: str='',cliente: str='', sinal_n: str=''):
+                  algoritmo: str='',cliente: str='', sinal_n: str='', csv: str=''):
         self.id = id_solicitacao
-        self.matriz_H: np.ndarray = None
-        self.vetor_sinal_g: np.ndarray = None
         self.linhas = linhas
         self.colunas = colunas
         self.algoritmo = algoritmo
@@ -20,6 +18,7 @@ class Solicitacao:
         self.imagem_reconstruida: np.ndarray = None
         self.cliente = cliente
         self.sinal_n=sinal_n
+        self.csv=csv
 
     # def __lt__(self, other):
     #     """Define prioridade para uso em PriorityQueue (para a lógica de cedência)"""
